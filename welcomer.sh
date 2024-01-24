@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Hello, it is $(date)"
 echo "Enter graphical environment? (y/n)"
 read input
