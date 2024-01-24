@@ -5,9 +5,9 @@ echo "Enter graphical environment? (y/n)"
 read input
 
 if [ "$input" == "y" ]; then
-    echo "command"
+    sudo startx /usr/bin/i3
 elif [ "$input" == "n" ]; then
-    echo "command"
+    :
 else
     echo "Invalid input"
 fi
